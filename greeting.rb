@@ -1,5 +1,6 @@
-def greeting(name)
-	"Nice to meet you " + name + ", How are you today?"
+def greet(person)
+  puts "Hello, " + person
 end
 
-puts greeting("Andy")
+greet("John")
+greet(1)
